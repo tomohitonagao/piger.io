@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>ピゲル</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    
+    
+
+
+
+    <link rel="stylesheet" href="./api/tenki.css">
+</head>
+<body>
+
+
+<div class="container">
+        <div id="daimei">piger</div>
+        <div class="center">
+             <select name="sources" id="sources" class="custom-select sources" placeholder="都市を選択">
+                <option id="cityRadio" name="cityRadio" value="1809858">広州</option>
+                <option id="cityRadio" name="cityRadio" value="1808926">杭州</option>
+                <option id="cityRadio" name="cityRadio" value="1796236">上海</option>
+                <option id="cityRadio" name="cityRadio" value="1816670">北京</option>
+                <option id="cityRadio" name="cityRadio" value="1850147">東京</option>
+                <option id="cityRadio" name="cityRadio" value="1853226">埼玉</option>
+                <option id="cityRadio" name="cityRadio" value="1853909">大阪</option>
+                <option id="cityRadio" name="cityRadio" value="1857910">京都</option>
+                <option id="cityRadio" name="cityRadio" value="1894616">沖縄</option>
+                <option id="cityRadio" name="cityRadio" value="2130037">北海道</option>
+                <option id="cityRadio" name="cityRadio" value="5128594">ニューヨーク</option>
+                <option id="cityRadio" name="cityRadio" value="3144096">ノルウェー</option>
+             </select>
+        </div>
+        <div class="example2">
+                        <a href="#" id="btn-square-above-look">表示する</a>
+                        <div class="weatherMain">
+                                <h3>現在の天気</h3>
+                                <div><span id="weather" class="bold"></span></div>
+                                <div><span id="weatherMark" class="bold"></span></div>
+                                <p id="icon"></p>
+                            </div>
+                            <div>気温　<span id="temp" class="bold"></span>　℃</div>
+                            <div>湿度　<span id="humidity" class="bold"></span>　%</div>
+                            <div>今日の服装</div>
+                            
+                            
+        </div>
+    <div id="obox">
+        <div class="kbox">
+                <span class="box-title">きれいめ</span>
+                <div>アウター </div>
+                <div>
+                    <span id="outer"></span>
+                </div>
+                <div>トップス</div>
+                <div>
+                    <span id="tops"></span>
+                </div>
+                <div>ボトムス</div>
+                <div> 
+                    <span id="bottom"></span>
+                </div>
+        </div>
+        <div class="kbox">
+            <span class="box-title">ストリート</span>
+            <div>アウター</div>
+            <div>
+                    <span id="so"></span>
+            </div>
+            <div>トップス </div>
+            <div>
+                    <span id="st"></span>
+            </div>
+            <div>ボトムス</div>
+            <div>
+                    <span id="sb"></span>
+            </div>
+        </div>
+    </div>              
+                
+                
+</div>
+
+</div>
+
+
+</body>
+<script type="text/javascript" src="./api/ten.js"></script>
+</html>
